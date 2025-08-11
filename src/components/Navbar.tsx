@@ -18,7 +18,7 @@ export function Navbar() {
         <nav className="hidden gap-6 text-sm font-semibold  text-xl sm:flex">
           <NavLink to="/" className={({ isActive }) => (isActive ? 'text-blue-600' : 'text-gray-600 hover:text-gray-900')}>Home</NavLink>
           <NavLink to="/products" className={({ isActive }) => (isActive ? 'text-blue-600' : 'text-gray-600 hover:text-gray-900')}>Products</NavLink>
-          <NavLink to="/About" className={({ isActive }) => (isActive ? 'text-blue-600' : 'text-gray-600 hover:text-gray-900')}>About</NavLink>
+          <NavLink to="/about" className={({ isActive }) => (isActive ? 'text-blue-600' : 'text-gray-600 hover:text-gray-900')}>About</NavLink>
         </nav>
 
         <div className="flex items-center gap-4">

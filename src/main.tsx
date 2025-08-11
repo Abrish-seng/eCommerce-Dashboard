@@ -8,6 +8,7 @@ import { Products } from './routes/Products.tsx'
 import { ProductDetail } from './routes/ProductDetail.tsx'
 import { Cart } from './routes/Cart.tsx'
 import { Checkout } from './routes/Checkout.tsx'
+import About  from './components/About.tsx'
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,8 @@ const router = createBrowserRouter([
       { path: 'products/:id', element: <ProductDetail /> },
       { path: 'cart', element: <Cart /> },
       { path: 'checkout', element: <Checkout /> },
+      { path: 'about', element: <About /> }, // <-- Add this line
+      // 
     ],
   },
 ])
